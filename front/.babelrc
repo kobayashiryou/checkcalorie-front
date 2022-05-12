@@ -1,3 +1,12 @@
 {
-  "presets": ["next/babel"]
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",　// styleed-componentをnextで使う上で必要
+      {
+        "ssr": true,
+        "meaninglessFileNames": ["index", "styles"]
+      }
+    ]
+  ]
 }

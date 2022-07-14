@@ -5,11 +5,9 @@ const ImgCover: React.FC = () => {
   return (
     <>
       <S.Container>
-        <S.CloudContainer>
-          <S.FirstCloud />
-          <S.SecondCloud />
-          <S.ThirdCloud />
-        </S.CloudContainer>
+        <S.ImgContainer>
+          <S.ContainerText>北信州</S.ContainerText>
+        </S.ImgContainer>
       </S.Container>
     </>
   )

@@ -17,7 +17,7 @@ export const FirstPreviewLeftSide = styled.div`
   display: flex;
   justify-content: center;
   width: 30%;
-  background-color: #228b22;
+  background-color: rgba(34, 139, 34, 0.8);
 `
 
 export const FirstPreviewrRightSide = styled.div`

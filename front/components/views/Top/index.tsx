@@ -1,5 +1,4 @@
 import { AxiosResponse } from 'axios';
-import { time } from 'console';
 import React, { useCallback, useEffect, useState } from 'react';
 import { useAxios } from '../../../utility/axios';
 import * as S from './style'
